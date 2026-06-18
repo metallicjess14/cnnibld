@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNNIBLD // HARD TECHNO DJ & PRODUCER</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="crt-overlay">
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+  <div class="custom-cursor-dot"></div>
+
+  <!-- Ambient Audio Grid and Scanlines -->
+  <div class="scanlines"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Global Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#hero" class="logo-container">
+        <!-- Logo Text Glitch / Image -->
+        <span class="logo-text" data-text="CNNIBLD">CNNIBLD</span>
+        <span class="logo-sub">// HARD TECHNO</span>
+      </a>
+      
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#about" class="nav-link"><span class="nav-num">01.</span> BIO</a></li>
+          <li><a href="#music" class="nav-link"><span class="nav-num">02.</span> SOUNDS</a></li>
+          <li><a href="#shows" class="nav-link"><span class="nav-num">03.</span> TOUR</a></li>
+          <li><a href="#booking" class="nav-link"><span class="nav-num">04.</span> BOOKING</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#booking" class="btn btn-primary btn-sm btn-glitch">BOOK DJ</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <!-- Background Image Container with selection -->
+      <div class="hero-bg-wrapper">
+        <div id="hero-bg" class="hero-bg bg-warehouse"></div>
+        <div class="hero-vignette"></div>
+      </div>
+
+      <!-- Technical System Stats overlay (Brutalist style) -->
+      <div class="tech-panel tech-panel-left">
+        <div class="tech-item"><span class="label">BPM:</span> <span class="val">145 - 165+</span></div>
+        <div class="tech-item"><span class="label">GENRE:</span> <span class="val">HARD TECHNO / INDUSTRIAL</span></div>
+        <div class="tech-item"><span class="label">STATUS:</span> <span class="val pulse-text">ONLINE</span></div>
+      </div>
+
+      <div class="tech-panel tech-panel-right">
+        <div class="tech-item"><span class="label">SYS_REF:</span> <span class="val">CNBL_v2.06</span></div>
+        <div class="tech-item"><span class="label">LOC:</span> <span class="val">BERLIN / DE</span></div>
+        <div class="tech-item"><span class="label">TEMP:</span> <span class="val">OVERHEATING</span></div>
+      </div>
+
+      <!-- Theme/Background Selector (Allows client to test all three of visual designer's concepts!) -->
+      <div class="background-selector">
+        <span class="selector-title">SELECT SONIC LANDSCAPE:</span>
+        <div class="selector-buttons">
+          <button class="selector-btn active" data-bg="warehouse">01. WAREHOUSE</button>
+          <button class="selector-btn" data-bg="brutalist">02. BRUTALIST</button>
+          <button class="selector-btn" data-bg="metallic">03. METALLIC</button>
+        </div>
+      </div>
+
+      <!-- Hero Main Content -->
+      <div class="hero-content">
+        <div class="logo-image-wrapper">
+          <img src="/images/logo-concept-1.png" alt="CNNIBLD LOGO" class="hero-logo-img">
+        </div>
+        <h1 class="hero-title" data-text="CNNIBLD">CNNIBLD</h1>
+        <p class="hero-subtitle">[ CAN-NI-BAL ] // HYPNOTIC. RENTLESS. DISTORTED.</p>
+        
+        <div class="hero-cta-group">
+          <a href="#music" class="btn btn-outline btn-lg">ENTER VOID</a>
+          <a href="#booking" class="btn btn-primary btn-lg btn-glitch">SECURE DATE</a>
+        </div>
+      </div>
+
+      <!-- Social Media Bar -->
+      <div class="social-bar">
+        <a href="https://soundcloud.com" target="_blank" class="social-icon">SOUNDCLOUD</a>
+        <span class="social-sep">//</span>
+        <a href="https://spotify.com" target="_blank" class="social-icon">SPOTIFY</a>
+        <span class="social-sep">//</span>
+        <a href="https://instagram.com" target="_blank" class="social-icon">INSTAGRAM</a>
+        <span class="social-sep">//</span>
+        <a href="https://residentadvisor.net" target="_blank" class="social-icon">RESIDENT_ADVISOR</a>
+        <span class="social-sep">//</span>
+        <a href="https://bandcamp.com" target="_blank" class="social-icon">BANDCAMP</a>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-text">SCROLL DOWN</span>
+        <span class="scroll-arrow">↓</span>
+      </a>
+    </section>
+
+    <!-- Scrolling Text Marquee -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        CNNIBLD // LIVE IN COLOGNE // NEW EP 'AUDIO HORROR' OUT NOW // NOW BOOKING FOR WINTER 2026 // CNNIBLD // LIVE IN COLOGNE // NEW EP 'AUDIO HORROR' OUT NOW // NOW BOOKING FOR WINTER 2026 // CNNIBLD // LIVE IN COLOGNE // NEW EP 'AUDIO HORROR' OUT NOW // NOW BOOKING FOR WINTER 2026
+      </div>
+    </div>
+
+    <!-- About/Bio Section -->
+    <section id="about" class="section-container about-section">
+      <div class="grid-layout">
+        <!-- Text Column -->
+        <div class="grid-col bio-text-col">
+          <div class="section-header">
+            <span class="section-tag">[ SOURCE CODE ]</span>
+            <h2 class="section-title">THE SONIC SHIELD</h2>
+          </div>
+          
+          <div class="bio-content font-mono">
+            <p class="highlight-p">
+              Distorted kicks, punishing sub-bass, and mechanical industrial textures define the relentless audio terror of CNNIBLD.
+            </p>
+            <p>
+              Emerging from the concrete vaults of the German underground, CNNIBLD has quickly established a repute for sonic devastation. By fusing elements of classic industrial noise, heavy machinery rhythms, and modern high-bpm hypnotic techno, their sets are engineered to dismantle dancefloors.
+            </p>
+            <p>
+              Every production is a meticulous exercise in tension, distortion, and raw physical resonance. CNNIBLD does not just play music; they deploy acoustic shockwaves designed to bypass the conscious mind and connect directly with pure primal energy.
+            </p>
+          </div>
+
+          <div class="technical-stats-grid">
+            <div class="stat-box">
+              <span class="stat-num">150+</span>
+              <span class="stat-lbl">DESIRED_BPM</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">100%</span>
+              <span class="stat-lbl">ANALOG_GRIT</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">99.9%</span>
+              <span class="stat-lbl">AUDIOLOGICAL_PRESSURE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual/Aesthetic Column -->
+        <div class="grid-col bio-image-col">
+          <div class="brutalist-card">
+            <div class="card-corner top-left">+</div>
+            <div class="card-corner top-right">+</div>
+            <div class="card-corner bottom-left">+</div>
+            <div class="card-corner bottom-right">+</div>
+            <div class="card-inner">
+              <div class="card-image-placeholder">
+                <span class="placeholder-text">[ ENCRYPTED_AESTHETIC ]</span>
+                <span class="placeholder-desc">SYSTEMS ACTIVE: SECURE RECONSTRUCTION IN PROGRESS</span>
+                <!-- Faint oscilloscope or waveform drawing via CSS -->
+                <div class="oscilloscope">
+                  <div class="oscilloscope-wave"></div>
+                </div>
+              </div>
+              <div class="card-footer-stats">
+                <span>FILE: SYS_IMAGE_A_198</span>
+                <span>TYPE: HIGH_CONTRAST_MONOCHROME</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section-container music-section">
+      <div class="section-header centered">
+        <span class="section-tag">[ FREQUENCY TRANSMISSIONS ]</span>
+        <h2 class="section-title">AUDIO INTRUSIONS</h2>
+      </div>
+
+      <div class="grid-layout">
+        <!-- SoundCloud Player Frame Placeholder -->
+        <div class="grid-col music-player-col">
+          <div class="technical-rack">
+            <div class="rack-header">
+              <div class="rack-lights">
+                <span class="light red pulse"></span>
+                <span class="light green"></span>
+                <span class="light green"></span>
+              </div>
+              <span class="rack-title">AUDIO FEED // CHANNEL_01</span>
+            </div>
+            
+            <div class="rack-body">
+              <!-- Inline widget placeholder with high-fidelity styling -->
+              <div class="player-iframe-placeholder">
+                <!-- We place a SoundCloud responsive iframe container -->
+                <div class="sc-player-container">
+                  <div class="sc-header">
+                    <span class="sc-badge">SOUNDCLOUD TRANSMISSION</span>
+                    <span class="sc-title">CNNIBLD - LIVE SET @ INDUSTRIAL VAULT (BERLIN)</span>
+                  </div>
+                  <!-- Visual audio visualizer bar-grid -->
+                  <div class="visualizer-grid">
+                    <div class="vis-bar" style="height: 40%"></div>
+                    <div class="vis-bar" style="height: 60%"></div>
+                    <div class="vis-bar" style="height: 85%"></div>
+                    <div class="vis-bar" style="height: 95%"></div>
+                    <div class="vis-bar" style="height: 70%"></div>
+                    <div class="vis-bar" style="height: 50%"></div>
+                    <div class="vis-bar" style="height: 90%"></div>
+                    <div class="vis-bar" style="height: 100%"></div>
+                    <div class="vis-bar" style="height: 80%"></div>
+                    <div class="vis-bar" style="height: 60%"></div>
+                    <div class="vis-bar" style="height: 40%"></div>
+                    <div class="vis-bar" style="height: 55%"></div>
+                    <div class="vis-bar" style="height: 75%"></div>
+                    <div class="vis-bar" style="height: 85%"></div>
+                    <div class="vis-bar" style="height: 65%"></div>
+                    <div class="vis-bar" style="height: 45%"></div>
+                  </div>
+                  <div class="sc-controls">
+                    <button class="sc-play-btn"><span class="play-icon">▶</span> ACTIVATE STREAM</button>
+                    <span class="sc-duration">01:14:22</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Album Releases Grid -->
+        <div class="grid-col releases-col">
+          <div class="releases-grid">
+            <!-- Release 1 -->
+            <div class="release-item">
+              <div class="release-header">
+                <span class="cat-no">CAT: [ CNBL-001 ]</span>
+                <span class="genre">GENRE: IND_TECHNO</span>
+              </div>
+              <h3 class="release-name">AUDIO HORROR EP</h3>
+              <div class="release-details font-mono">
+                <div class="detail-row"><span>LABEL:</span> <span>REVOLT RECORDS</span></div>
+                <div class="detail-row"><span>BPM:</span> <span>155 BPM</span></div>
+                <div class="detail-row"><span>FORMAT:</span> <span>DIGITAL / VINYL</span></div>
+              </div>
+              <div class="release-actions">
+                <a href="#" class="btn btn-outline btn-sm">STREAM</a>
+                <a href="#" class="btn btn-primary btn-sm btn-glitch">BUY VINYL</a>
+              </div>
+            </div>
+
+            <!-- Release 2 -->
+            <div class="release-item">
+              <div class="release-header">
+                <span class="cat-no">CAT: [ CNBL-002 ]</span>
+                <span class="genre">GENRE: INDUSTRIAL</span>
+              </div>
+              <h3 class="release-name">CONCRETE CATHEDRAL</h3>
+              <div class="release-details font-mono">
+                <div class="detail-row"><span>LABEL:</span> <span>KINETIC AUDIO</span></div>
+                <div class="detail-row"><span>BPM:</span> <span>160 BPM</span></div>
+                <div class="detail-row"><span>FORMAT:</span> <span>DIGITAL ONLY</span></div>
+              </div>
+              <div class="release-actions">
+                <a href="#" class="btn btn-outline btn-sm">STREAM</a>
+                <a href="#" class="btn btn-primary btn-sm btn-glitch">BUY TRACK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Shows/Tour Dates Section -->
+    <section id="shows" class="section-container shows-section">
+      <div class="section-header">
+        <span class="section-tag">[ SYSTEM CALIBRATION ]</span>
+        <h2 class="section-title">UPCOMING TRANSACTIONS // TOUR</h2>
+      </div>
+
+      <div class="timetable-container">
+        <div class="timetable-header font-mono">
+          <div class="cell date-cell">DATE</div>
+          <div class="cell event-cell">EVENT // VENUE</div>
+          <div class="cell location-cell">LOCATION</div>
+          <div class="cell status-cell">STATUS</div>
+          <div class="cell action-cell">TRANSACTION</div>
+        </div>
+
+        <div class="timetable-body font-mono">
+          <!-- Show 1 -->
+          <div class="timetable-row">
+            <div class="cell date-cell"><span class="highlight-text">2026.07.10</span></div>
+            <div class="cell event-cell">TRESOR // VAULT ROOM</div>
+            <div class="cell location-cell">BERLIN, DE</div>
+            <div class="cell status-cell"><span class="badge badge-success">ACTIVE</span></div>
+            <div class="cell action-cell"><a href="#" class="btn btn-primary btn-xs btn-glitch">TICKETS</a></div>
+          </div>
+
+          <!-- Show 2 -->
+          <div class="timetable-row">
+            <div class="cell date-cell"><span class="highlight-text">2026.07.18</span></div>
+            <div class="cell event-cell">BOOTSHAUS // BLACKBOX</div>
+            <div class="cell location-cell">COLOGNE, DE</div>
+            <div class="cell status-cell"><span class="badge badge-success">ACTIVE</span></div>
+            <div class="cell action-cell"><a href="#" class="btn btn-primary btn-xs btn-glitch">TICKETS</a></div>
+          </div>
+
+          <!-- Show 3 -->
+          <div class="timetable-row">
+            <div class="cell date-cell"><span class="highlight-text">2026.08.01</span></div>
+            <div class="cell event-cell">STONE TECHNO FESTIVAL</div>
+            <div class="cell location-cell">ESSEN, DE</div>
+            <div class="cell status-cell"><span class="badge badge-danger">SOLD OUT</span></div>
+            <div class="cell action-cell"><a href="#" class="btn btn-disabled btn-xs" disabled>UNAVAILABLE</a></div>
+          </div>
+
+          <!-- Show 4 -->
+          <div class="timetable-row">
+            <div class="cell date-cell"><span class="highlight-text">2026.08.15</span></div>
+            <div class="cell event-cell">RONG CLUB // CEMENT LAB</div>
+            <div class="cell location-cell">PARIS, FR</div>
+            <div class="cell status-cell"><span class="badge badge-success">ACTIVE</span></div>
+            <div class="cell action-cell"><a href="#" class="btn btn-primary btn-xs btn-glitch">TICKETS</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/Booking Section -->
+    <section id="booking" class="section-container booking-section">
+      <div class="section-header centered">
+        <span class="section-tag">[ BOOKING ACQUISITION ]</span>
+        <h2 class="section-title">SECURE TRANSMISSION</h2>
+      </div>
+
+      <div class="grid-layout">
+        <!-- Contact details and info -->
+        <div class="grid-col booking-info-col font-mono">
+          <div class="technical-spec-block">
+            <h3>[ AGENCY PROTOCOLS ]</h3>
+            <p>For booking inquiries, tour management and representation globally, please submit the transmission form or use the dedicated terminal emails below.</p>
+            
+            <div class="contact-methods">
+              <div class="contact-item">
+                <span class="item-lbl">GENERAL_BOOKING:</span>
+                <span class="item-val"><a href="mailto:booking@cnnibld.com">booking@cnnibld.com</a></span>
+              </div>
+              <div class="contact-item">
+                <span class="item-lbl">MANAGEMENT_DIRECT:</span>
+                <span class="item-val"><a href="mailto:mgmt@cnnibld.com">mgmt@cnnibld.com</a></span>
+              </div>
+              <div class="contact-item">
+                <span class="item-lbl">PRESS_KITS:</span>
+                <span class="item-val"><a href="#">DOWNLOAD_EPK.ZIP</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="grid-col booking-form-col">
+          <div class="brutalist-form-container">
+            <form id="booking-form" class="brutalist-form">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name" class="form-label">01 // PROMOTER_NAME</label>
+                  <input type="text" id="name" name="name" required class="form-input" placeholder="ENTER AGENCY / NAME">
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">02 // CONTACT_EMAIL</label>
+                  <input type="email" id="email" name="email" required class="form-input" placeholder="ENTER CORRESPONDENCE EMAIL">
+                </div>
+
+                <div class="form-group">
+                  <label for="event-date" class="form-label">03 // PROPOSED_DATE</label>
+                  <input type="date" id="event-date" name="event-date" required class="form-input">
+                </div>
+
+                <div class="form-group">
+                  <label for="location" class="form-label">04 // EVENT_LOCATION</label>
+                  <input type="text" id="location" name="location" required class="form-input" placeholder="CITY, COUNTRY">
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="message" class="form-label">05 // DETAILS // PARAMETERS</label>
+                  <textarea id="message" name="message" rows="5" required class="form-textarea" placeholder="TRANSMIT CAPACITY, VENUE, SOUNDSYSTEM DETAILS..."></textarea>
+                </div>
+              </div>
+
+              <div class="form-submit-container">
+                <button type="submit" class="btn btn-primary btn-lg btn-glitch full-width">TRANSMIT INQUIRY</button>
+              </div>
+              
+              <div id="form-feedback" class="form-feedback hidden">
+                <span class="feedback-icon">✔</span> TRANSMISSION SECURED. ACKNOWLEDGEMENT IN 24 HOURS.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="main-footer font-mono">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span>© 2026 CNNIBLD Website. ALL RIGHTS SECURED.</span>
+      </div>
+      <div class="footer-right">
+        <span>SYSTEM_STATUS: <span class="pulse-text green">OPTIMAL</span></span>
+        <span class="sep">//</span>
+        <span>LATENCY: 12ms</span>
+        <span class="sep">//</span>
+        <span>VERSION: V3.14.FLASH</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Entry Script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
